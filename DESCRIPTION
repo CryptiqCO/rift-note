@@ -1,7 +1,8 @@
 ﻿Package: riftnote
 Title: Normalize Agent Strings
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(person("CryptiqCO", role = c("aut", "cre")))
 Description: Weekend-sized normalization helpers for transcripts.
 License: MIT + file LICENSE
 Encoding: UTF-8
+
