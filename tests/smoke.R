@@ -4,3 +4,5 @@ normalize_agent_line <- get("normalize_agent_line", envir = e)
 stopifnot(normalize_agent_line("  hi   ") == "hi")
 
 stopifnot(normalize_agent_line('') == '')
+
+stopifnot(length(normalize_agent_line(character(0))) == 0L)
